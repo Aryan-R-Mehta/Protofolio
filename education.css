@@ -1,0 +1,77 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Montserrat, sans-serif;
+}
+.card{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+
+}
+.card1{
+    width: 20%;
+    overflow-y: hidden;
+    position: fixed;
+}
+.part1{
+    height: 30vh;
+    background-color: teal;
+    background-image: url("profile.jpg");
+    background-position-x: -50px;
+    background-position-y: -250px;
+}
+.about_me{
+    height: 100vh;
+}
+.part2{
+    height: 70vh;
+    background-color: gold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.menu_text{
+    margin-top: 4vh;
+    height: 60vh;
+    font-family: Montserrat, sans-serif;
+    font-size: small;
+    font-weight: normal;
+}
+h1:hover{
+    cursor: pointer;
+    color: #FFFFFF;
+    width: auto;
+    border-radius: 30px;
+}
+.card2{
+    margin-left: 15%;
+    width: 80%;
+    height: 100vh;
+}
+.TOPICS{
+    height: 30vh;
+}
+.topic_sub{
+    border: #333333 1px solid;
+    border-style: dashed;
+    height: 20vh;
+    margin-top: 3vh;
+    text-align: center;
+    padding-bottom: 2vh;
+    font-size: 20vh;
+    width: 80%;
+    margin-left: 10%;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+.DATAS{
+    height: 70vh;
+    background-color: tan;
+}
+.data_sub{
+    font-size: 30px;
+    margin-left: 10%;
+}
